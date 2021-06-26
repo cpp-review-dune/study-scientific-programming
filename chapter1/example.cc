@@ -3,6 +3,7 @@
 // https://stackoverflow.com/a/51131512/9302545
 #include <random>
 #include <cblas.h>
+#include <iostream>
 
 int main(int argc, char *argv[])
 {
@@ -10,6 +11,7 @@ int main(int argc, char *argv[])
   // Random numbers
   std::mt19937_64 rnd;
   std::uniform_real_distribution<double> doubleDist(0, 1);
+  std::cout<< doubleDist(rnd);
 
   // Create arrays that represent the matrices A,B,C
   const int n = 20;
