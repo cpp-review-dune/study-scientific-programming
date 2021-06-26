@@ -1,5 +1,6 @@
 // g++ -I/tmp/mtl4 -O2 introductory_example.cc -o introductory_example
 //g++ -I/home/john/Github/mtl4/mtl4 -O2 introductory_example.cc -o introductory_example
+//g++ -I/home/dcamacho/mtl4 -O2 introductory_example.cc -o introductory_example
 #include <iostream>
 #include <boost/numeric/mtl/mtl.hpp>
 
