@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
   std::mt19937_64 rnd;
   std::uniform_real_distribution<double> doubleDist(0, 1);
   std::cout<< doubleDist(rnd);
-
   // Create arrays that represent the matrices A,B,C
   const int n = 20;
   double *A = new double[n * n];
